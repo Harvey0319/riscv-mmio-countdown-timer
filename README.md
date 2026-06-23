@@ -10,8 +10,8 @@ Two-Digit Countdown Timer System Based on RISC-V Memory-Mapped I/O
 本專題使用 Digilent Basys 3 FPGA 開發板實作。使用到的 I/O 包含：
 
 * SW[5:0]：設定倒數秒數，範圍為 0～63 秒
-* BTN C：開始 / 暫停 / 繼續
-* BTN U：重設
+* BTN C (U18)：開始 / 暫停 / 繼續
+* BTN U (T18)：重設
 * LED[3:0]：顯示 WAIT、RUN、PAUSE、DONE 狀態
 * 七段顯示器：顯示目前倒數值 00～63
 
@@ -34,15 +34,9 @@ riscv-mmio-countdown-timer/
 ├── asm/
 │   └── countdown.s
 ├── constraints/
-│   └── Basys3.xdc
-├── screenshots/
-│   ├── toolchain_version.png
-│   ├── objdump.png
-│   ├── program_init.png
-│   ├── vivado_sources.png
-│   └── board_test.png
-└── report/
-    └── s1120319_final_project_report.pdf
+    └── Basys3.xdc
+
+
 ```
 
 ## 5. 如何產生 bitstream
