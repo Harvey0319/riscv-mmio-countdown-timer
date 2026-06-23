@@ -41,7 +41,7 @@ riscv-mmio-countdown-timer/
 
 ## 5. 如何產生 bitstream
 
-1. 開啟 Vivado 2024.1。
+1. 開啟 Vivado 2025.2。
 2. 建立 RTL Project。
 3. 選擇 Basys 3 對應 FPGA：`xc7a35tcpg236-1`。
 4. 加入以下 Verilog 檔案：
