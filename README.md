@@ -17,7 +17,7 @@ Two-Digit Countdown Timer System Based on RISC-V Memory-Mapped I/O
 
 ## 3. 使用工具版本
 
-* FPGA 開發工具：Xilinx Vivado 2024.1
+* FPGA 開發工具：Xilinx Vivado 2025.2
 * RISC-V toolchain：riscv64-unknown-elf-gcc / objdump / objcopy
 * 作業系統環境：Windows + Ubuntu
 * 轉換工具：Python 3
